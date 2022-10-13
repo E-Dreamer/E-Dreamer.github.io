@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.51">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/logo.png"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><title>前端积累</title><meta name="description" content="记录一些知识点">
+    <link rel="modulepreload" href="/assets/app.f84cf065.js"><link rel="modulepreload" href="/assets/404.html.bb88fc52.js"><link rel="modulepreload" href="/assets/404.html.c3e557d0.js"><link rel="prefetch" href="/assets/index.html.d3766025.js"><link rel="prefetch" href="/assets/index.html.eb284421.js"><link rel="prefetch" href="/assets/vue.html.bdf59656.js"><link rel="prefetch" href="/assets/index.html.e0c6953e.js"><link rel="prefetch" href="/assets/index.html.eeb82726.js"><link rel="prefetch" href="/assets/vue.html.a004f172.js"><link rel="prefetch" href="/assets/index.html.b6250727.js"><link rel="prefetch" href="/assets/index.html.59b018aa.js"><link rel="prefetch" href="/assets/vue.html.544aaaa8.js"><link rel="prefetch" href="/assets/index.html.048eb9b1.js"><link rel="prefetch" href="/assets/index.html.fbbd1e24.js"><link rel="prefetch" href="/assets/vue.html.24be0df4.js">
+    <link rel="stylesheet" href="/assets/style.fa9d9e7d.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>这里什么都没有</blockquote><a href="/" class="">返回首页</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.f84cf065.js" defer></script>
+  </body>
+</html>
